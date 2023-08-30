@@ -1,0 +1,50 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(29, 23, 23);
+  color: orange;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header a {
+  text-transform: uppercase;
+  font-size: 50px;
+  text-decoration: none;
+  margin: 30px 40px;
+  color: inherit;
+}
+
+header nav {
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+}
+
+header a:hover {
+  text-decoration: none;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  margin: 40px;
+}
+
+.selector {
+  padding: 0px;
+  margin: 0;
+}
+
+.selector a {
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
