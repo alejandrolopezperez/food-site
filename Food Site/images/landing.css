@@ -69,7 +69,7 @@ a {
 }
 
 #side-drawer:target {
-display: block;
+  display: block;
 }
 
 #side-drawer header {
@@ -111,7 +111,7 @@ main h1 {
 #latest-products ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  gap: 1.5rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -132,6 +132,10 @@ main h1 {
 .food-item-content {
   padding: 1rem;
   text-align: center;
+}
+
+.food-item h2 {
+  margin: 0 0 1rem 0;
 }
 
 .btn {
@@ -161,5 +165,4 @@ main h1 {
   #main-header .menu-btn {
     display: none;
   }
-
 }
