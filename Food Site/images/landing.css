@@ -92,7 +92,13 @@ main h1 {
   background-color: rgb(221, 134, 34);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
+  main h1 {
+    font-size: 1.5rem;
+  }
+  #main-header nav {
+    display: none;
+  }
   #latest-products ul {
     grid-template-columns: 100%;
   }
